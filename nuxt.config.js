@@ -111,6 +111,9 @@ export default {
     '@nuxtjs/pwa',
     // https://github.com/juliomrqz/nuxt-optimized-images
     '@aceforth/nuxt-optimized-images',
+
+    // https://github.com/moritzsternemann/vue-plausible
+    'vue-plausible'
   ],
 
   optimizedImages: {
@@ -119,6 +122,10 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
+
+  plausible: {
+    domain: 'fragezeichen.cappic90.de'
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
